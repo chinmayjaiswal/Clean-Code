@@ -19,7 +19,7 @@ public class EmployeeTest {
 	 * It removes all loopholes in existed earlier.
 	 * It supports Single Responsibility principle
 	 * It supports open close principle
-	 * Method : employee.makeEmployee()
+	 * Method : employeeFactory.makeEmployee()
 	 * 		1.does only one job and does it well, it creates employee only.
 	 * 		2. It has one abstraction only, to create employee
 	 * 		3. No any business logic 
