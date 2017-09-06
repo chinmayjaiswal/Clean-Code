@@ -29,4 +29,14 @@ public class EmployeeTest {
 
 	}
 
+	/**
+	 * This code has several problems. 
+	 * payroll.calculatePay() 
+	 * 		1. Its large, and when new eplouee types are added, it will grow.
+	 * 		2. It clearly does more than one thing
+	 * 		3. It violates SRP (Single Responsibility Principle) because there are more than one reason to change it.
+	 * 		4. It violates OCP(Open Close Principle) because it must change when new employee types are added
+	 *      5. There can be many functions that will have same structure  like : isPayday(Employee e, Date date)... 
+	 */
+	
 }
